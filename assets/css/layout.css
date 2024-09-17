@@ -37,7 +37,6 @@ body {
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: LightSeaGreen;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -59,6 +58,7 @@ header, nav, main, aside, footer {
 header {
 	/* Altura do elemento. */
 	height: 100px;
+	background: LightSeaGreen;
 }
 
 header #logo {
