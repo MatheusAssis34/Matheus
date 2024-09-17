@@ -13,7 +13,7 @@
 }
 
 body { 
-	color: LightCyan ;
+	color: SaddleBrown ;
 	font-size: 12px;
 	text-align: center; 
 	/* Exibição flexível.                          */
@@ -128,19 +128,19 @@ main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
-	color: MediumAquarine;
+	Background: MediumAquarine;
 }
 
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-	color: Cyan;
+	Background: Cyan;
 }
 
 footer {
 	/* Altura do elemento. */
 	height: 100px;
-	color: PaleGreen;
+	Background: PaleGreen;
 }
 
 a {
@@ -148,7 +148,7 @@ a {
 	text-decoration: none;
 
 	/* Definir a cor da fonte para o padrão do elemento pai. */
-	color: LightSteelBlue;
+	Background: LightSteelBlue;
 }
 
 /* Altera o estilo dos elementos para serem apresentados */ 
@@ -190,7 +190,7 @@ a {
 		height: 100vh;
 
 		/* Cor em RGB, mais transparência. */
-		background: rgba(DarkSeaGreen);
+		background: DarkSeaGreen;
 
 		/* Alinha os itens na vertical. */
 		justify-content: center;
