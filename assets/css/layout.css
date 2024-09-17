@@ -13,7 +13,7 @@
 }
 
 body { 
-	color: red ;
+	color: LightCyan ;
 	font-size: 12px;
 	text-align: center; 
 	/* Exibição flexível.                          */
@@ -37,7 +37,7 @@ body {
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: #a1a1a1;
+	background: LightSeaGreen;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -74,7 +74,7 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #c9c9c9;
+	background: none;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -128,16 +128,19 @@ main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
+	color: MediumAquarine;
 }
 
 aside {
 	/* Altura do elemento. */
 	height: 100px;
+	color: Cyan;
 }
 
 footer {
 	/* Altura do elemento. */
 	height: 100px;
+	color: PaleGreen;
 }
 
 a {
@@ -145,7 +148,7 @@ a {
 	text-decoration: none;
 
 	/* Definir a cor da fonte para o padrão do elemento pai. */
-	color: inherit;
+	color: LightSteelBlue;
 }
 
 /* Altera o estilo dos elementos para serem apresentados */ 
@@ -187,7 +190,7 @@ a {
 		height: 100vh;
 
 		/* Cor em RGB, mais transparência. */
-		background: rgba(255, 255, 255, 0.8);
+		background: rgba(DarkSeaGreen);
 
 		/* Alinha os itens na vertical. */
 		justify-content: center;
