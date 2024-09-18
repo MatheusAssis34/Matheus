@@ -151,6 +151,12 @@ footer {
 	height: 100px;
 	Background: PaleGreen;
 }
+table {
+		background: #cb3a3ab3;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0 auto;
+	}
 
 a {
 	/* Remove a decoração padrão do elemento. */
@@ -225,10 +231,5 @@ a {
 		/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
 		height: calc(100vh - 330px);
 	}
-	table {
-		background: #cb3a3ab3;
-		border-radius: 10px;
-		padding: 10px;
-		margin: 0 auto;
-	}
+	
 }
