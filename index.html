@@ -96,6 +96,89 @@
   <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
   <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
 </div>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Nome">Nome</label>  
+  <div class="col-md-4">
+  <input id="Nome" name="Nome" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">preencha seu nome</span>  
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">Digite sua senha</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Button Drop Down -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="buttondropdown">Button Drop Down</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="" type="text">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          Action
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Option one</a></li>
+          <li><a href="#">Option two</a></li>
+          <li><a href="#">Option three</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton">Enviar</label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Button</button>
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Gênero</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="2" checked="checked">
+      Masculino
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="3">
+      Feminino
+    </label> 
+    <label class="radio-inline" for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="4">
+      Outro
+    </label>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Text Area</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea"></textarea>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
 		
 	
 </body>
