@@ -109,7 +109,7 @@ header #logo {
 }
 
 nav {
-	background: #9e2960;
+	background: #f36a7c;
 	
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -140,13 +140,13 @@ main {
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-	Background: #c7a861;
+	Background: #e19559;
 }
 
 footer {
 	/* Altura do elemento. */
 	height: 100px;
-	Background: #cc9d33;
+	Background: #f7a659;
 }
 table {
 		background: #cb3a3ab3;
