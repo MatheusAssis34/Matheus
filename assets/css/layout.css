@@ -109,7 +109,7 @@ header #logo {
 }
 
 nav {
-	background: red;
+	background: #9e2960;
 	
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -128,7 +128,7 @@ nav a {
 }
 
 main {
-	background: white;
+	background: #cfa5b9;
     
 
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
@@ -140,13 +140,13 @@ main {
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-	Background: Cyan;
+	Background: #c7a861;
 }
 
 footer {
 	/* Altura do elemento. */
 	height: 100px;
-	Background: PaleGreen;
+	Background: #cc9d33;
 }
 table {
 		background: #cb3a3ab3;
