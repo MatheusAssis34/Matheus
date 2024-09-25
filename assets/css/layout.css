@@ -32,6 +32,8 @@ body {
 
 	/* Margem de todos os lados. */
 	margin: 3px;
+
+	background: #48142b;
 }
 
 /* Formatação comum entre os elementos. */
@@ -120,6 +122,8 @@ nav {
 
 	/* Altura do elemento. */
 	height: 100px;
+
+	color: #000000;
 }
 
 nav a {
