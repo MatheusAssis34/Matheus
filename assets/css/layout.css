@@ -60,7 +60,7 @@ header {
 	/* Altura do elemento. */
 	height: 100px;
 	background: #48142b;
-	color: black;
+	color: #000000;
 }
 
 header #logo {
